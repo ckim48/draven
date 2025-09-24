@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Draven Chung's Portfolio</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&family=Oswald:wght@400;500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+
+
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center position-relative">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">My Journey</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#art-gallery">Arts</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+<section id="hero" class="hero section hero-anim">
+  <div class="container" data-aos="fade-up" data-aos-duration="900">
+    <div class="row align-items-center gx-5 gy-5">
+
+      <!-- Hero Text -->
+      <div class="col-lg-7">
+        <div class="intro" data-aos="fade-right" data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-out-cubic">
+          
+          <!-- Eyebrow -->
+          <div class="eyebrow d-inline-flex align-items-center gap-2 mb-3 reveal-up float-eyebrow" 
+               style="--delay:0ms;" 
+               data-aos="fade-down" data-aos-delay="100" data-aos-duration="600">
+            <span class="dot"></span>
+            <span class="text">Portfolio</span>
+          </div>
+
+          <!-- Heading -->
+          <h1 class="display-heading mb-3 reveal-up" 
+              style="--delay:120ms;" 
+              data-aos="fade-right" data-aos-delay="200" data-aos-duration="800">
+            Designing Ideas That Make an Impact
+          </h1>
+
+          <!-- Paragraph -->
+          <p class="lead mb-4 reveal-up" 
+             style="--delay:220ms;" 
+             data-aos="fade-right" data-aos-delay="300" data-aos-duration="800">
+            A student exploring design, technology, and community projects — from building apps to creating meaningful cultural works.
+          </p>
+
+          <!-- CTA Buttons -->
+          <div class="cta-group d-flex flex-wrap align-items-center gap-3 reveal-up" 
+               style="--delay:320ms;" 
+               data-aos="zoom-in" data-aos-delay="400" data-aos-duration="700">
+            <a href="#portfolio" class="btn btn-ghost">View My Work <i class="bi bi-arrow-right ms-2"></i></a>
+            <a href="#contact" class="link-underline">Contact <i class="bi bi-envelope ms-2"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Image -->
+      <div class="col-lg-5">
+        <figure class="portrait-wrap position-relative reveal-up" 
+                style="--delay:180ms;" 
+                data-aos="fade-left" data-aos-delay="500" data-aos-duration="900" data-aos-easing="ease-out-cubic">
+          <img src="assets/img/profile/profile1.png" 
+               alt="Portfolio Portrait"
+               class="img-fluid portrait-img d-block mx-auto float-image" style="width: 70%;">
+          <figcaption class="visually-hidden">Draven Portfolio Portrait</figcaption>
+        </figure>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+    <!-- About Section -->
+   <section id="about" class="about section light-background">
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>About Draven</h2>
+    <p>Designing adaptive systems to support vulnerable communities through innovation and cultural heritage.</p>
+  </div>
+  <!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row align-items-center justify-content-between intro-wrap gy-5">
+
+      <!-- About Text -->
+      <div class="col-lg-6" data-aos="fade-right" data-aos-delay="150">
+        <div class="intro-content">
+          <span class="eyebrow">About Me</span>
+          <h2 class="headline">
+Draven: Building Systems That Bend, Not Break          </h2>
+          <p class="lead" style="text-align: justify;">
+Draven is a Taiwanese-American designer and researcher focused on creating adaptive systems that strengthen vulnerable communities. Drawing from his family's legacy of community service and his deep connections to Taiwan's indigenous populations, he works at the intersection of architecture, policy, and social innovation. His projects range from modular disaster relief shelters inspired by traditional craftsmanship to economic policy initiatives supporting single mothers. Through research published in international conferences and hands-on community work, Draven develops solutions that honor cultural heritage while addressing modern challenges. His approach combines technical innovation with social responsibility, always asking how design can serve those who need it most.
+          </p>
+
+
+          <div class="cta-group">
+            <a href="#portfolio" class="btn-ghost">
+              View My Work <i class="bi bi-arrow-down"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- About Image -->
+      <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="250">
+        <figure class="profile-figure text-center text-lg-end">
+          <img src="assets/img/profile/profile2.jpg" alt="Draven Portrait" class="img-fluid profile-photo" >
+          <figcaption class="profile-caption d-flex justify-content-end"></figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+  
+
+<section id="resume" class="resume section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>My Journey</h2>
+    <p>A look at the projects, programs, and milestones that shaped my growth.</p>
+  </div>
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <!-- Tabs -->
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="nav nav-pills resume-navigation justify-content-center" id="resume-resume-tabs" role="tablist" data-aos="fade-up" data-aos-delay="200">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="resume-activities-tab" data-bs-toggle="pill" data-bs-target="#resume-activities" type="button" role="tab" aria-controls="resume-activities" aria-selected="true">
+              <span class="nav-number">01</span>
+              <span class="nav-label">Activities</span>
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="resume-edu-tab" data-bs-toggle="pill" data-bs-target="#resume-edu" type="button" role="tab" aria-controls="resume-edu" aria-selected="false">
+              <span class="nav-number">02</span>
+              <span class="nav-label">Education & Programs</span>
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="resume-awards-tab" data-bs-toggle="pill" data-bs-target="#resume-awards" type="button" role="tab" aria-controls="resume-awards" aria-selected="false">
+              <span class="nav-number">03</span>
+              <span class="nav-label">Awards</span>
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="resume-skills-tab" data-bs-toggle="pill" data-bs-target="#resume-skills" type="button" role="tab" aria-controls="resume-skills" aria-selected="false">
+              <span class="nav-number">04</span>
+              <span class="nav-label">Skills & Tools</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Tab Panes -->
+    <div class="tab-content resume-content" id="resume-resume-tabContent">
+
+      <!-- ACTIVITIES -->
+      <div class="tab-pane fade show active" id="resume-activities" role="tabpanel" aria-labelledby="resume-activities-tab" tabindex="0" data-aos="fade-up" data-aos-delay="300">
+        <div class="section-intro">
+          <h2>Activities</h2>
+          <p>Design, research, community, and tech initiatives centered on resilience and culture.</p>
+        </div>
+
+        <div class="hcard-list">
+          <!-- Kimlan Makaw -->
+          <article class="hcard" data-aos="fade-up" data-aos-delay="350">
+            <div class="hcard-media">
+              <img src="assets/img/experience/soysauce1.jpg" alt="Kimlan Makaw Soy Sauce Project" loading="lazy">
+            </div>
+            <div class="hcard-body">
+              <div class="hcard-head">
+                <h3 class="hcard-title">Co-Developer & Cultural Liaison — Kimlan Makaw Soy Sauce</h3>
+                <span class="hcard-meta">2025 • Social Responsibility</span>
+              </div>
+              <ul class="hcard-bullets">
+                <li>Co-created limited-edition soy sauce using traditional Atayal <em>Makaw</em> spice with artist Miru Hayung.</li>
+                <li>Designed indigenous totem labels; distribution through indigenous shops across Taiwan.</li>
+                <li>Directed 100% of proceeds to The Mustard Seed Mission for indigenous education.</li>
+                <li class="links">Articles: <a href="https://reurl.cc/WOOkp7" target="_blank" rel="noopener">CNA (EN)</a> · <a href="https://reurl.cc/899o4o" target="_blank" rel="noopener">Yahoo</a></li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- MotherCare App -->
+          <article class="hcard" data-aos="fade-up" data-aos-delay="400">
+            <div class="hcard-media">
+              <img src="assets/img/experience/mothercare1.png" alt="MotherCare App" loading="lazy">
+            </div>
+            <div class="hcard-body">
+              <div class="hcard-head">
+                <h3 class="hcard-title">Co-Founder & Developer — MotherCare App</h3>
+                <span class="hcard-meta">Aug 2023 – Present • App / AI</span>
+              </div>
+              <ul class="hcard-bullets">
+                <li>AI chatbot for indigenous single mothers: legal info, welfare guidance, admin support.</li>
+                <li>Recruited data analysts; coordinated product with programmers.</li>
+                <li>Prototyped thermal shelters + temperature-triggered alerts for cold-risk prevention.</li>
+              </ul>
+            </div>
+          </article>
+                    <!-- Atayal Books -->
+          <article class="hcard" data-aos="fade-up" data-aos-delay="500">
+            <div class="hcard-media">
+              <img src="assets/img/experience/book1.jpeg" alt="Atayal Bilingual Picture Books" loading="lazy">
+            </div>
+            <div class="hcard-body">
+              <div class="hcard-head">
+                <h3 class="hcard-title">Editorial & Production — Atayal Bilingual Picture Books</h3>
+                <span class="hcard-meta">Aug 2025 • Culture & Publishing</span>
+              </div>
+              <ul class="hcard-bullets">
+                <li>Edited and produced <em>Pinbahuw na Yaki</em> & <em>Qnxan na Trakis</em> (Atayal–English).</li>
+                <li>Coordinated authors, cultural consultants, city and corporate partners.</li>
+                <li>First Atayal picture books on Amazon; featured by Boston Mayor Michelle Wu.</li>
+                <li class="links">Books: <a href="https://www.amazon.com/dp/B0FRF3Y6TR" target="_blank" rel="noopener">#1</a> · <a href="https://www.amazon.com/dp/B0FRF1Z38N" target="_blank" rel="noopener">#2</a></li>
+              </ul>
+            </div>
+          </article>
+          <article class="hcard" data-aos="fade-up" data-aos-delay="600">
+            <div class="hcard-media">
+              <img src="assets/img/experience/gpt.gif" alt="LognCoding ProjectGPT" loading="lazy">
+            </div>
+            <div class="hcard-body">
+              <div class="hcard-head">
+                <h3 class="hcard-title">Project Lead — LognCoding: ProjectGPT</h3>
+                <span class="hcard-meta">Dec 2024 – Spring 2025 • Education Tech</span>
+              </div>
+              <ul class="hcard-bullets">
+                <li>Designed AI storybooks for 250 students in rural Philippines.</li>
+                <li>Blended STEM, business, and environmental themes with local culture.</li>
+              </ul>
+            </div>
+          </article>
+                              <!-- Project XR -->
+          <article class="hcard" data-aos="fade-up" data-aos-delay="750">
+            <div class="hcard-media">
+              <img src="assets/img/experience/projectxr.png" alt="Project XR VR Mental Health" loading="lazy">
+            </div>
+            <div class="hcard-body">
+              <div class="hcard-head">
+                <h3 class="hcard-title">Machine Learning Developer — Project XR (VR Mental Health)</h3>
+                <span class="hcard-meta">Jan–May 2024 • CMU Center for Transformational Play</span>
+              </div>
+              <ul class="hcard-bullets">
+                <li>VR app with AI agent for trauma recovery via emotion recognition.</li>
+                <li>Built CNN/Transformer models, dashboard (Dash/Plotly), recommender.</li>
+                <li>Researched inclusive design (gender roles & LGBTQ+ representation).</li>
+              </ul>
+            </div>
+          </article>
+                    <!-- Behavioral Econ Research -->
+          <article class="hcard hcard--no-crop" data-aos="fade-up" data-aos-delay="650">
+            <div class="hcard-media">
+              <img src="assets/img/experience/langer.png" alt="Behavioral Economics & Finance Research" loading="lazy">
+            </div>
+            <div class="hcard-body">
+              <div class="hcard-head">
+                <h3 class="hcard-title">Researcher — Behavioral Economics & Finance</h3>
+                <span class="hcard-meta">Sep 2023 – Present • Research</span>
+              </div>
+              <ul class="hcard-bullets">
+                <li>Studying mindfulness effects on investor decisions under pressure.</li>
+                <li>Built an STP app to simulate scarcity-driven behaviors and stress.</li>
+                <li>Mentored by Prof. Ellen Langer.</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Project Horizon -->
+          <article class="hcard hcard--no-crop" data-aos="fade-up" data-aos-delay="700">
+            <div class="hcard-media">
+              <img src="assets/img/experience/horizon.png" alt="Project Horizon AI Policy Simulation" loading="lazy">
+            </div>
+            <div class="hcard-body">
+              <div class="hcard-head">
+                <h3 class="hcard-title">Co-Developer — Project Horizon (AI Policy Simulation)</h3>
+                <span class="hcard-meta">Summer–Fall 2025 • Northwestern × Gates Foundation</span>
+              </div>
+              <ul class="hcard-bullets">
+                <li>Simulated long-term AI impacts in public health, environment, and IR.</li>
+                <li>Built decision-matrix scoring and GPT/HF API scenario pipeline.</li>
+                <li>Developed demographic analytics for nonprofit partners.</li>
+              </ul>
+            </div>
+          </article>
+          
+          <!-- UBI Taiwan -->
+<!-- Text-only (no image) cards in a 2-col row -->
+<div class="hcard-grid">
+  <article class="hcard hcard--no-media" data-aos="fade-up" data-aos-delay="550">
+    <div class="hcard-body">
+      <div class="hcard-head">
+        <h3 class="hcard-title">Intern — Baiwin Antiques, Digital Heritage</h3>
+        <span class="hcard-meta">Ongoing • Archive & Data</span>
+      </div>
+      <ul class="hcard-bullets">
+        <li>Digitizing a private archive of 11,000+ Taiwanese antiques.</li>
+        <li>Designing a searchable platform; modernizing catalog workflows.</li>
+        <li>Exploring modular systems and digital tools for preservation.</li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="hcard hcard--no-media" data-aos="fade-up" data-aos-delay="650">
+    <div class="hcard-body">
+      <div class="hcard-head">
+        <h3 class="hcard-title">President — Youth Leadership Council, UBI Taiwan</h3>
+        <span class="hcard-meta">Dec 2020 – Present • Policy & Community</span>
+      </div>
+      <ul class="hcard-bullets">
+        <li>Raised 670K NTD (~$20.6K USD) for single mothers via charity events.</li>
+        <li>Published on basic income, affordable housing, and automation-driven displacement.</li>
+        <li>Judged debate tournaments promoting policy awareness.</li>
+      </ul>
+    </div>
+  </article>
+</div>
+
+
+          
+
+
+
+
+        </div>
+      </div>
+
+      <!-- EDUCATION & PROGRAMS -->
+      <div class="tab-pane fade" id="resume-edu" role="tabpanel" aria-labelledby="resume-edu-tab" tabindex="0" data-aos="fade-up" data-aos-delay="300">
+        <div class="section-intro">
+          <h2>Education & Programs</h2>
+          <p>School, studios, and learning experiences that shaped my interests.</p>
+        </div>
+
+        <div class="hcard-list">
+          <!-- Chadwick International -->
+          <article class="hcard hcard--no-media" data-aos="fade-up" data-aos-delay="350">
+            <div class="hcard-body">
+              <div class="hcard-head">
+                <h3 class="hcard-title">Chadwick International</h3>
+                <span class="hcard-meta">2019–2026 • High School</span>
+              </div>
+              <ul class="hcard-bullets">
+                <li>STEM emphasis with debate, design, and research-based electives.</li>
+                <li>Advanced/AP coursework; project-based learning and presentations.</li>
+                <li>Community initiatives focused on culture and resilience.</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Studios & Summer Programs -->
+          <article class="hcard hcard--no-media" data-aos="fade-up" data-aos-delay="400">
+            <div class="hcard-body">
+              <div class="hcard-head">
+                <h3 class="hcard-title">Studios & Summer Programs</h3>
+                <span class="hcard-meta">2024–2025</span>
+              </div>
+              <ul class="hcard-bullets">
+                <li>Architecture studios inspired by Shigeru Ban & Zaha Hadid (modular, deployable systems).</li>
+                <li>AI policy workshops and creative coding labs with peer critiques.</li>
+                <li>Hands-on prototyping for disaster-relief design.</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Architecture Concepts -->
+          <article class="hcard hcard--no-media" data-aos="fade-up" data-aos-delay="450">
+            <div class="hcard-body">
+              <div class="hcard-head">
+                <h3 class="hcard-title">Architecture Concepts</h3>
+                <span class="hcard-meta">Indigenous Amis • Disaster Relief</span>
+              </div>
+              <ul class="hcard-bullets">
+                <li>Inflatable/rapid-deploy shelters; floating pavilions for floods/tsunami.</li>
+                <li>Modular housing, eco-village systems, healing parks after disasters.</li>
+                <li>Nature symbolism & tribal patterns reflecting cultural identity.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+
+
+      <!-- AWARDS -->
+<div class="tab-pane fade" id="resume-awards" role="tabpanel" aria-labelledby="resume-awards-tab" tabindex="0" data-aos="fade-up" data-aos-delay="300">
+  <div data-aos="fade-up" data-aos-delay="300">
+    <div class="section-intro">
+      <h2>Awards</h2>
+      <p>Selected recognitions across music, arts, academics, and innovation.</p>
+    </div>
+
+    <!-- IMAGE-BASED AWARDS GRID -->
+    <div class="hcard-list">
+      <div class="award-grid">
+        <!-- 2nd Creative Art Competition — Commendation -->
+        <article class="award-card" data-aos="fade-up" data-aos-delay="150">
+          <div class="award-media">
+            <img src="assets/img/awards/2nd Creative Art Competition Award - awarded by National Assembly Member Lee In-young (July 2025).jpg"
+                 alt="2nd Creative Art Competition — Commendation (National Assembly Member Lee In-young, July 2025)" loading="lazy">
+          </div>
+          <div class="award-body">
+            <h3 class="award-title">2nd Creative Art Competition — Commendation</h3>
+            <p class="award-meta">National Assembly Member Lee In-young • Jul 2025</p>
+          </div>
+        </article>
+
+        <!-- 2nd Creative Art Competition — Award Ceremony -->
+        <article class="award-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="award-media">
+            <img src="assets/img/awards/Art Comp w Kids.png"
+                 alt="2nd Creative Art Competition — Award Ceremony (Group Photo)" loading="lazy">
+          </div>
+          <div class="award-body">
+            <h3 class="award-title">2nd Creative Art Competition — Award Ceremony</h3>
+            <p class="award-meta">2025</p>
+          </div>
+        </article>
+
+        <!-- Genius Olympiad — Finalist -->
+        <article class="award-card" data-aos="fade-up" data-aos-delay="250">
+          <div class="award-media">
+            <img src="assets/img/awards/Genius Olympiad Finalist_.png"
+                 alt="Genius Olympiad — Finalist (The Last Whisper of Life)" loading="lazy">
+          </div>
+          <div class="award-body">
+            <h3 class="award-title">Genius Olympiad — Finalist</h3>
+            <p class="award-meta">Environmental Category • 2025</p>
+          </div>
+        </article>
+
+        <!-- Awarded artwork (Beneath the Surface) -->
+        <article class="award-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="award-media">
+            <img src="assets/img/awards/Beneath the surface artwork.png"
+                 alt="Awarded Artwork — Beneath the Surface" loading="lazy">
+          </div>
+          <div class="award-body">
+            <h3 class="award-title">Awarded Artwork — “Beneath the Surface”</h3>
+            <p class="award-meta">2025</p>
+          </div>
+        </article>
+
+        <!-- New Stage International — 2nd Place (Strings) -->
+        <article class="award-card" data-aos="fade-up" data-aos-delay="350">
+          <div class="award-media">
+            <img src="assets/img/awards/New Stage International Music Competition 2nd Place - Online Strings Division Group IV (September 2024).png"
+                 alt="New Stage International Music Competition — 2nd Place (Strings, Group IV, Sept 2024)" loading="lazy">
+          </div>
+          <div class="award-body">
+            <h3 class="award-title">New Stage International — 2nd Place</h3>
+            <p class="award-meta">Strings (Group IV) • Sep 2024</p>
+          </div>
+        </article>
+
+        <!-- World Master Open Music — Silver Prize -->
+        <article class="award-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="award-media">
+            <img src="assets/img/awards/World Master Open Music Competition Silver Prize - Young Artist Division, Double Bass (2025 Season I).png"
+                 alt="World Master Open Music Competition — Silver Prize (Young Artist, Double Bass, 2025 Season I)" loading="lazy">
+          </div>
+          <div class="award-body">
+            <h3 class="award-title">World Master Open Music — Silver Prize</h3>
+            <p class="award-meta">Young Artist, Double Bass • 2025 Season</p>
+          </div>
+        </article>
+
+        <!-- Performance portrait (supports music awards) -->
+        <article class="award-card" data-aos="fade-up" data-aos-delay="450">
+          <div class="award-media">
+            <img src="assets/img/awards/Draven with Double Bass.png"
+                 alt="Double Bass Performance Portrait" loading="lazy">
+          </div>
+          <div class="award-body">
+            <h3 class="award-title">Double Bass — Performance Portrait</h3>
+            <p class="award-meta">Recital/Portfolio • 2025</p>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- TEXT-ONLY HONORS SECTION -->
+    <div class="award-summary" data-aos="fade-up" data-aos-delay="500">
+      <h3 class="summary-title">Honors & Awards Summary</h3>
+
+      <div class="summary-category">
+        <h4>MUSIC & ARTS</h4>
+        <ul>
+          <li>Bravo Conservatory Chamber Music Summer Camp — July 2025</li>
+        </ul>
+      </div>
+
+      <div class="summary-category">
+        <h4>ACADEMIC & COMPETITION</h4>
+        <ul>
+          <li>AMC (2023–2025), AIME Qualifier (2024, 2025)</li>
+          <li>AP Scholar with Honor</li>
+          <li>John Locke Essay Competition — Shortlist (2025)</li>
+          <li>IAAHS: 1st Place, Art & Human Studies — "Beneath the Surface" (2025)</li>
+          <li>DFIA Fine Art: 2nd Place, 2D — "Beneath the Surface" (2025)</li>
+        </ul>
+      </div>
+
+      <div class="summary-category">
+        <h4>INVENTION & TECHNOLOGY</h4>
+        <ul>
+          <li>World Invention Creativity Olympic — Gold Award (2024)</li>
+          <li>AI-JAM US Smart House Design — Data & Environmental Sensors (2024)</li>
+        </ul>
+      </div>
+
+      <div class="summary-category">
+        <h4>CULTURAL & TERRITORIAL STUDIES</h4>
+        <ul>
+          <li>16th National Dokdo Essay Competition Award — Aug 2025</li>
+        </ul>
+      </div>
+
+      <div class="summary-category">
+        <h4>ADDITIONAL ART AWARDS</h4>
+        <ul>
+          <li>EXCA International — Architecture, 3rd Place (2023)</li>
+          <li>Neo-euprize — Honorable Mention (2024)</li>
+          <li>Neo EU Prize — Illustration, 3rd Place (2025)</li>
+          <li>IAAY — Mixed Media, 3rd Place (2025)</li>
+          <li>Betmat — Website Design, 1st Place (2025)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!-- SKILLS & TOOLS -->
+      <div class="tab-pane fade" id="resume-skills" role="tabpanel" aria-labelledby="resume-skills-tab" tabindex="0" data-aos="fade-up" data-aos-delay="300">
+        <div class="section-intro">
+          <h2>Skills & Tools</h2>
+          <p>Design, code, research, and collaboration.</p>
+        </div>
+
+        <div class="hcard-list">
+          <article class="hcard hcard--skill" data-aos="fade-up" data-aos-delay="350">
+            <div class="hcard-media hcard-media--icon">
+              <img src="assets/img/skills/skill2.jpg" alt="Design Icon" loading="lazy">
+            </div>
+            <div class="hcard-body">
+              <div class="hcard-head">
+                <h3 class="hcard-title">Design</h3>
+                <span class="hcard-meta">Visual & Product</span>
+              </div>
+              <ul class="hcard-bullets">
+                <li>Figma • Prototyping • UI Layout • Editorial</li>
+                <li>Accessible, human-centered workflows</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="hcard hcard--skill" data-aos="fade-up" data-aos-delay="400">
+            <div class="hcard-media hcard-media--icon">
+              <img src="assets/img/skills/skill1.gpg" alt="Code Icon" loading="lazy">
+            </div>
+            <div class="hcard-body">
+              <div class="hcard-head">
+                <h3 class="hcard-title">Code</h3>
+                <span class="hcard-meta">Frontend & Data</span>
+              </div>
+              <ul class="hcard-bullets">
+                <li>HTML/CSS/JS • Bootstrap • Python</li>
+                <li>Dash/Plotly dashboards & simple ML prototypes</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="hcard hcard--skill" data-aos="fade-up" data-aos-delay="450">
+            <div class="hcard-media hcard-media--icon">
+              <img src="assets/img/skills/research.svg" alt="Research Icon" loading="lazy">
+            </div>
+            <div class="hcard-body">
+              <div class="hcard-head">
+                <h3 class="hcard-title">Research & Community</h3>
+                <span class="hcard-meta">Mindfulness • Policy • Culture</span>
+              </div>
+              <ul class="hcard-bullets">
+                <li>User research • Data collection • Policy simulation</li>
+                <li>Public speaking • Collaboration • Leadership</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+
+    </div><!-- /tab-content -->
+
+  </div><!-- /container -->
+</section>
+<!-- ======= Research Section ======= -->
+<section id="research" class="research section">
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <!-- Section Title -->
+    <div class="section-intro text-center mb-5">
+      <h2>Research</h2>
+      <p>Ongoing projects and published work exploring culture, architecture, and linguistics.</p>
+    </div>
+
+    <!-- Ongoing / Future Research Projects -->
+    <div class="research-list">
+      <div class="research-card" data-aos="fade-up" data-aos-delay="150">
+        <h4>Optimizing Thermal & Environmental Performance</h4>
+        <ul>
+          <li>Field measurements using thermocouples, hygrometers, and anemometers.</li>
+          <li>Comparative analysis of traditional design efficiency.</li>
+        </ul>
+      </div>
+
+      <div class="research-card" data-aos="fade-up" data-aos-delay="200">
+        <h4>Spatial Perceptions of Traditional Taiwanese Design</h4>
+        <p class="subtext">Comparative study between Taiwan and Taiwanese-American contexts.</p>
+        <ul>
+          <li>Image evaluations: harmony, openness, utility, and comfort.</li>
+          <li>ANOVA analysis of traditional elements like wooden screens and gardens.</li>
+        </ul>
+      </div>
+
+      <div class="research-card" data-aos="fade-up" data-aos-delay="250">
+        <h4>Tone & Stress Patterns in Taiwanese Aboriginal Languages</h4>
+        <p class="subtext">Cross-linguistic phonological study.</p>
+        <ul>
+          <li>Audio elicitation tasks and pitch contour comparisons.</li>
+          <li>Perception tests with native and non-native speakers.</li>
+        </ul>
+      </div>
+
+      <div class="research-card" data-aos="fade-up" data-aos-delay="300">
+        <h4>Language Revitalization & Cultural Identity</h4>
+        <ul>
+          <li>Surveys on proficiency and cultural engagement.</li>
+          <li>Ethnographic interviews capturing youth narratives.</li>
+          <li>Statistical evaluation of revitalization program outcomes.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Divider -->
+    <div class="divider"></div>
+
+    <!-- Published Papers -->
+    <div class="section-intro text-center mb-4">
+      <h3 class="small-heading">Published Papers</h3>
+      <p>View or download my latest research papers.</p>
+    </div>
+
+    <div class="papers-list">
+      <!-- Paper 1 -->
+      <div class="paper-card" data-aos="fade-up" data-aos-delay="150">
+        <div class="paper-icon">
+          <i class="bi bi-file-earmark-pdf"></i>
+        </div>
+        <div class="paper-info">
+          <h5>Comparative Analysis of Indigenous Language Revitalization in Taiwan and Australia</h5>
+          <a href="assets/research/Comparative Analysis of Indigenous Language Revitalization in Taiwan and Australia.pdf" target="_blank">
+            View / Download PDF
+          </a>
+        </div>
+      </div>
+
+      <!-- Paper 2 -->
+      <div class="paper-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="paper-icon">
+          <i class="bi bi-file-earmark-pdf"></i>
+        </div>
+        <div class="paper-info">
+          <h5>Taiwan’s Architectural Heritage</h5>
+          <a href="assets/research/Taiwan_s Archicultural Heritage.pdf" target="_blank">
+            View / Download PDF
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- End Research Section -->
+
+
+
+
+<!-- ======= Art Gallery Section ======= -->
+<section id="art-gallery" class="gallery section">
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <!-- Section Title -->
+    <div class="section-intro text-center mb-5">
+      <h2>Art Gallery</h2>
+      <p>A curated selection of my artwork and creative projects.</p>
+    </div>
+
+    <!-- Masonry Grid -->
+    <div class="gallery-grid">
+      <a href="assets/img/arts/1.png" class="glightbox gallery-item" data-gallery="art">
+        <img src="assets/img/arts/1.png" alt="Artwork 1">
+      </a>
+      <a href="assets/img/arts/2.png" class="glightbox gallery-item" data-gallery="art">
+        <img src="assets/img/arts/2.png" alt="Artwork 2">
+      </a>
+      <a href="assets/img/arts/3.png" class="glightbox gallery-item" data-gallery="art">
+        <img src="assets/img/arts/3.png" alt="Artwork 3">
+      </a>
+      <a href="assets/img/arts/4.png" class="glightbox gallery-item" data-gallery="art">
+        <img src="assets/img/arts/4.png" alt="Artwork 4">
+      </a>
+      <a href="assets/img/arts/5.png" class="glightbox gallery-item" data-gallery="art">
+        <img src="assets/img/arts/5.png" alt="Artwork 5">
+      </a>
+      <a href="assets/img/arts/6.png" class="glightbox gallery-item" data-gallery="art">
+        <img src="assets/img/arts/6.png" alt="Artwork 6">
+      </a>
+      <a href="assets/img/arts/7.png" class="glightbox gallery-item" data-gallery="art">
+        <img src="assets/img/arts/7.png" alt="Artwork 7">
+      </a>
+      <a href="assets/img/arts/8.png" class="glightbox gallery-item" data-gallery="art">
+        <img src="assets/img/arts/8.png" alt="Artwork 8">
+      </a>
+      <a href="assets/img/arts/9.png" class="glightbox gallery-item" data-gallery="art">
+        <img src="assets/img/arts/9.png" alt="Artwork 9">
+      </a>
+      <a href="assets/img/arts/10.png" class="glightbox gallery-item" data-gallery="art">
+        <img src="assets/img/arts/10.png" alt="Artwork 10">
+      </a>
+      <a href="assets/img/arts/11.png" class="glightbox gallery-item" data-gallery="art">
+        <img src="assets/img/arts/11.png" alt="Artwork 11">
+      </a>
+      <a href="assets/img/arts/12.png" class="glightbox gallery-item" data-gallery="art">
+        <img src="assets/img/arts/12.png" alt="Artwork 12">
+      </a>
+      <a href="assets/img/arts/13.png" class="glightbox gallery-item" data-gallery="art">
+        <img src="assets/img/arts/13.png" alt="Artwork 13">
+      </a>
+      <a href="assets/img/arts/14.png" class="glightbox gallery-item" data-gallery="art">
+        <img src="assets/img/arts/14.png" alt="Artwork 14">
+      </a>
+      <a href="assets/img/arts/15.png" class="glightbox gallery-item" data-gallery="art">
+        <img src="assets/img/arts/15.png" alt="Artwork 15">
+      </a>
+    </div>
+  </div>
+</section>
+<!-- End Art Gallery Section -->
+
+
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact section light-background">
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="section-intro text-center mb-4">
+      <h2>Contact</h2>
+      <p>Feel free to reach out by email.</p>
+    </div>
+
+    <div class="contact-card mx-auto" data-aos="zoom-in" data-aos-delay="150">
+      <i class="bi bi-envelope"></i>
+      <!-- Replace with your real email -->
+      <a class="contact-email" href="mailto:draven@example.com">draven@example.com</a>
+    </div>
+
+  </div>
+</section>
+<!-- End Contact Section -->
+
+
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Draven Chung</strong> <span>All Rights Reserved</span></p>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <!-- Vendor JS Files -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+<script>
+  const galleryLightbox = GLightbox({
+    selector: '.glightbox',
+    touchNavigation: true,
+  });
+</script>
+
+</body>
+
+</html>
